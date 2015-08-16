@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1200dp"
+    android:background="#C0C0C0" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Steps To Do:"
+        android:textSize="22dp" 
+        android:textStyle="bold"
+        android:textColor="#960018"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:text="1.Check for responsiveness tap the shoulder and shout, “Are you OK?”"
+        android:textSize="20dp"
+        android:textColor="#002E63" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="14dp"
+        android:text="2.Hands-Only CPR should not be used for adults whose cardiac arrest is due to drug overdose, near-drowning, or an unwitnessed cardiac arrest. In these cases, do a conventional CPR combination of chest compressions and rescue breathing."
+        android:textSize="20dp" 
+        android:textColor="#002E63" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:text="3.Place the heel of your hand on the center of the person&apos;s chest."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="4.Place the heel of your other hand on top of your first hand, lacing fingers together."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="22dp"
+        android:text="5.Keep arms straight and your shoulders directly over your hands."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="18dp"
+        android:text="6.Push hard and fast, compressing chest at least 2 inches."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="24dp"
+        android:text="7.The child may be discharged home or hospitalized for further care, depending on response to treatment."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="24dp"
+        android:text="8.Let chest rise completely before pushing down again."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="30dp"
+        android:text="9.The person starts breathing normally and a trained responder or emergency help takes over" 
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="24dp"
+        android:text="10.For further treatment contact doctor" 
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+</RelativeLayout>
+</ScrollView>

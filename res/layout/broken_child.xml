@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    android:background="#C0C0C0" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Steps To Do:"
+        android:textSize="22dp" 
+        android:textStyle="bold"
+        android:textColor="#960018"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:text="1.Do not try to straighten the arm."
+        android:textSize="20dp"
+        android:textColor="#002E63" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="14dp"
+        android:text="2.If the bone has broken through the skin, do not touch it. Drape gauze or a clean diaper over the injury, apply pressure to control the bleeding, and get emergency help."
+        android:textSize="20dp" 
+        android:textColor="#002E63" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="3.Put some soft padding around the arm, like a soft cloth."
+        android:textSize="20dp"
+        android:textColor="#002E63" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:text="4.Splint the wrapped arm with a ruler, newspaper, or magazine to keep it from moving too much."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="5.Gently wrap cloth or tape around the splint and wrapping to hold them together."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="22dp"
+        android:text="6.Make sure the splint and wrapping aren't cutting off circulation."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="18dp"
+        android:text="7.If your child may have a broken arm, go to the pediatrician's office or the emergency room."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="24dp"
+        android:text="8.While waiting to see a doctor, put a wrapped ice pack or ice in a towel on the arm for a few minutes at a time."
+        android:textSize="20dp" 
+        android:textColor="#002E63"/>
+    
+    
+
+</RelativeLayout>
+</ScrollView>

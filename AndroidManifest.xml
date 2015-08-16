@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trackdoctor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+     <uses-permission android:name="android.permission.INTERNET" />
+     
+   
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.trackdoctor.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup"></activity>
+        <activity android:name=".Menu1"></activity>
+        <activity android:name=".Succ_signup"></activity>
+        <activity android:name=".Emergency1"></activity>
+        <activity android:name=".First_Aid"></activity>
+        <activity android:name=".Astama"></activity>
+        <activity android:name=".Astama_Adult"></activity>
+        <activity android:name=".Astama_Child"></activity>
+        <activity android:name=".Heart_Attack"></activity>
+        <activity android:name=".Heart_Adult"></activity>
+        <activity android:name=".Broken_Bone"></activity>
+        <activity android:name=".Broken_Adult"></activity>
+        <activity android:name=".Broken_Child"></activity>
+        <activity android:name=".Snake_Bite"></activity>
+        <activity android:name=".CPR1"></activity>
+        <activity android:name=".CPR_Adult"></activity>
+        <activity android:name=".CPR_Child"></activity>
+        <activity android:name=".CPR"></activity>
+        <activity android:name=".Burns"></activity>
+        <activity android:name=".Burns_Adult"></activity>
+        <activity android:name=".Burns_Child"></activity>
+        <activity android:name=".Stroke"></activity>
+        <activity android:name=".Poison"></activity>
+        <activity android:name=".Poison_Adult"></activity>
+        <activity android:name=".Poison_Child"></activity>
+        <activity android:name=".Bleeding"></activity>
+        <activity android:name=".Bleeding_Adult"></activity>
+        <activity android:name=".Bleeding_Child"></activity>
+        <activity android:name=".Astama_Ad_Vid"></activity>
+         <activity android:name=".Astama_Ch_Vid"></activity>
+         <activity android:name=".Heart_Attack_Vid"></activity>
+         <activity android:name=".Tab_Menu"></activity>
+         <activity android:name=".Catagories"></activity>
+         <activity android:name=".Fever"></activity>
+         <activity android:name=".Cold"></activity>
+         <activity android:name=".Cough"></activity>
+         <activity android:name=".Dia"></activity>
+         <activity android:name=".Body"></activity>
+        <activity android:name=".Vomit"></activity>   
+        <activity android:name=".Abhay"></activity>
+        <activity android:name=".General"></activity>  
+        <activity android:name=".Antony"></activity>
+        <activity android:name=".Madh"></activity>
+        <activity android:name=".Aparna"></activity>
+        <activity android:name=".Arora"></activity>
+        <activity android:name=".ENT"></activity>
+        <activity android:name=".Rai"></activity>
+        <activity android:name=".Shri"></activity>
+        <activity android:name=".Cardio"></activity>
+        <activity android:name=".Guru"></activity>
+        <activity android:name=".Abhi"></activity>
+        <activity android:name=".Sandeep"></activity>
+        <activity android:name=".Ortho"></activity>
+        <activity android:name=".Neuro"></activity>
+        <activity android:name=".Pediatrician"></activity>
+        <activity android:name=".Input_Med"></activity>
+        <activity android:name=".Med_Info"></activity>
+         <activity android:name=".What_is"></activity>
+         <activity android:name=".Side_eff"></activity>
+        
+   </application>
+
+</manifest>

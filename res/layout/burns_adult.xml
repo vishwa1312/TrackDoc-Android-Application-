@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:background="#C0C0C0" >
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Steps To Do:"
+        android:textSize="22dp" 
+        android:textStyle="bold"
+        android:textColor="#960018"/>
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView1"
+         android:layout_below="@+id/textView1"
+         android:layout_marginTop="17dp"
+         android:text="1.Stop burning immediately that is put out fire or stop the person&apos;s contact with hot liquid, steam, or other material"
+         android:textColor="#002E63"
+         android:textSize="20dp" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/textView2"
+          android:layout_below="@+id/textView2"
+          android:layout_marginTop="14dp"
+          android:text="2.Help the person &quot;stop, drop, and roll&quot; to smother flames and remove smoldering material and burned  from the person."
+          android:textColor="#002E63"
+          android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="3.Take off jewelry, belts, and tight clothing. Burns can swell quickly."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:text="4.Hold burned skin under cool (not cold) running water or immerse in cool water until pain subsides and use compresses if running water isn’t available."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="5.Cover with sterile, non-adhesive bandage or clean cloth and do not apply butter or ointments, which can cause infection."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="22dp"
+        android:text="6.Give over-the-counter pain reliever such as ibuprofen (Advil, Motrin), acetaminophen (Tylenol), or naproxen (Aleve)."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="18dp"
+        android:text="7.Seek medical help if: "
+        android:textColor="#960018"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="24dp"
+        android:text="i.You see signs of infection, like increased pain, redness, swelling, fever, or oozing"
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="24dp"
+        android:text="ii.The person needs tetanus or booster shot, depending on date of last injection. Tetanus booster should be given every 10 years."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:text="iii.Redness and pain last more than a few hours and if pain worsens."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+</ScrollView>

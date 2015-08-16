@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#C0C0C0" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Steps To Do:"
+        android:textSize="22dp" 
+        android:textStyle="bold"
+        android:textColor="#960018"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:text="1.Note time when symptoms first appeared"
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="14dp"
+        android:text="2.Tell emergency personnel the exact time when you first noticed symptoms."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="3.Depending on the type of stroke, there is a medicine that may reduce long-term effects if given within four and a half hours of the first symptom appearing. Sooner is better."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:text="4.If the person is diabetic, check the blood glucose (sugar) level. Treat low glucose with a glucose tablet, glass of orange juice or other sugary drink or food, or a glucagon injection (if the person is not able to swallow)."
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:text="5. Think F.A.S.T i.e Face: is there weakness on one side of their face? ,Arms: can they raise both arms?, Speech:is there speech easily understood?, Time: to call  emergency services"
+        android:textColor="#002E63"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+</ScrollView>
